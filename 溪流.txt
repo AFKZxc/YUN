@@ -1,0 +1,282 @@
+┄┄┄溪流自制脚本
+┄┄┄源码免费提供
+Producer:溪流    By:溪流  Summation Code:发霉的番薯
+┄┄┄白名单自行添加，一定要添加旧用户名，而不是新用户名
+
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/xLRUSiKx"))()
+
+local Window = OrionLib:MakeWindow({Name = "溪流-X", HidePremium = false, SaveConfig = true,IntroText = "VEGAX", ConfigFolder = "溪流菜鸟脚本"})
+
+local CoreGui = game:GetService("StarterGui")
+
+long = game.Players.LocalPlayer.Name
+long = {
+    "GX_VegaX398",
+    "plm398",
+    "M995ld",
+    "foryalol",
+    "meme123",
+    "74jjk69",
+    "",
+    "",
+    "",
+    "",
+    "",
+}
+if long then
+   local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "检测到您("..game.Players.LocalPlayer.Name..")已经被加入白名单",
+    Duration = 5,
+})
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\121\98\54\84\120\118\118\120",true))()
+
+    else 
+  setclipboard("719247153")
+      local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "已自动复制QQ群群号，请加入"有个蛋的QQ群",
+    Duration = 5,
+})
+end
+
+about:AddParagraph("更新","小更新0.89")
+
+about:AddParagraph("你的注入器 Name = 不知道")
+
+local player = Window:MakeTab({
+	Name = "星耀",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddTextbox({
+	Name = "移动速度",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end
+})
+
+player:AddTextbox({
+	Name = "变成小兔子",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end
+})
+
+player:AddButton({
+	Name = "***",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/jvyN5hT8"))()
+  	end
+})
+
+player:AddButton({
+	Name = "背起了行囊",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
+  	end
+})
+
+local other = Window:MakeTab({
+    Name = "no't NAME",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+    end
+})
+
+other:AddButton({
+	Name = "perspective",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/MA8jhPWT"))()
+  	end
+})
+
+other:AddButton({
+	Name = "NO't NAME",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/uJaFG8wH"))()
+  	end
+})
+
+other:AddButton({
+	Name = "过期发霉了",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/kaxAJ5tY"))()
+  	end
+})
+
+other:AddButton({
+    Name = "XSC脚本中心"
+    Callback = function()
+    getgenv().XC="作者XC"
+loadstring(game:HttpGet("https://pastebin.com/raw/PAFzYx0F"))()
+    end
+})
+
+other:AddButton({
+    Name = "艹入脚本(汉化)"
+    Callback = functon()
+    --Variables
+ 
+ 
+local SimpleSexGUI = Instance.new("ScreenGui")
+ 
+local FGUI = Instance.new("Frame")
+ 
+local btnNaked = Instance.new("TextButton")
+ 
+local btnSex = Instance.new("TextButton")
+ 
+local tbxVictim = Instance.new("TextBox")
+ 
+local lblFUCKEMALL = Instance.new("TextLabel")
+ 
+local ImageLabel = Instance.new("ImageLabel")
+ 
+local lbltitle = Instance.new("TextLabel")
+ 
+local TextLabel = Instance.new("TextLabel")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--Properties
+ 
+SimpleSexGUI.Name = "SimpleSexGUI"
+SimpleSexGUI.Parent = game.CoreGui
+ 
+ 
+FGUI.Name = "FGUI"
+FGUI.Parent = SimpleSexGUI
+FGUI.BackgroundColor3 = Color3.new(255,255,255)
+FGUI.BorderSizePixel = 1
+FGUI.Position = UDim2.new(0,0, 0.667, 0)
+FGUI.Size = UDim2.new(0,317, 0,271)
+FGUI.Draggable = true
+ 
+ 
+ 
+lbltitle.Name = "Title"
+lbltitle.Parent = FGUI
+lbltitle.BackgroundColor3 = Color3.new(255,255,255)
+lbltitle.BorderSizePixel = 1
+lbltitle.Position = UDim2.new (0, 0,-0.122, 0)
+lbltitle.Size = UDim2.new (0, 317,0, 33)
+lbltitle.Visible = true
+lbltitle.Active = true
+lbltitle.Draggable = false
+lbltitle.Selectable = true
+lbltitle.Font = Enum.Font.SourceSansBold
+lbltitle.Text = "一个简单的操蛋脚本!!"
+lbltitle.TextColor3 = Color3.new(0, 0, 0)
+lbltitle.TextSize = 20
+ 
+ 
+ 
+ 
+ 
+btnSex.Name = "Sex"
+btnSex.Parent = FGUI
+btnSex.BackgroundColor3 = Color3.new(255,255,255)
+btnSex.BorderSizePixel = 1
+btnSex.Position = UDim2.new (0.044, 0,0.229, 0)
+btnSex.Size = UDim2.new (0, 99,0, 31)
+btnSex.Visible = true
+btnSex.Active = true
+btnSex.Draggable = false
+btnSex.Selectable = true
+btnSex.Font = Enum.Font.SourceSansBold
+btnSex.Text = "让我们操蛋吧!!"
+btnSex.TextColor3 = Color3.new(0, 0, 0)
+btnSex.TextSize = 20
+ 
+ 
+ 
+ 
+tbxVictim.Name = "VictimTEXT"
+tbxVictim.Parent = FGUI
+tbxVictim.BackgroundColor3 = Color3.new(255,255,255)
+tbxVictim.BorderSizePixel = 1
+tbxVictim.Position = UDim2.new (0.533, 0,0.229, 0)
+tbxVictim.Size = UDim2.new (0, 133,0, 27)
+tbxVictim.Visible = true
+tbxVictim.Active = true
+tbxVictim.Draggable = false
+tbxVictim.Selectable = true
+tbxVictim.Font = Enum.Font.SourceSansBold
+tbxVictim.Text = "名字"
+tbxVictim.TextColor3 = Color3.new(0, 0, 0)
+tbxVictim.TextSize = 20
+ 
+lblFUCKEMALL.Name = "FUCKEMALL"
+lblFUCKEMALL.Parent = FGUI
+lblFUCKEMALL.BackgroundColor3 = Color3.new(255,255,255)
+lblFUCKEMALL.BorderSizePixel = 1
+lblFUCKEMALL.Position = UDim2.new (0.025, 0,0.856, 0)
+lblFUCKEMALL.Size = UDim2.new (0, 301,0, 27)
+lblFUCKEMALL.Visible = true
+lblFUCKEMALL.Font = Enum.Font.SourceSansBold
+lblFUCKEMALL.Text = "操蛋和操蛋"
+lblFUCKEMALL.TextColor3 = Color3.new(0, 0, 0)
+lblFUCKEMALL.TextSize = 20
+ 
+ImageLabel.Name = "ImageLabel"
+ImageLabel.Parent = FGUI
+ImageLabel.Image = "http://www.roblox.com/asset/?id=42837..."
+ImageLabel.BorderSizePixel = 1
+ImageLabel.Position = UDim2.new (0.274, 0,0.358, 0)
+ImageLabel.Size = UDim2.new (0, 106,0, 121)
+ 
+ 
+ 
+ 
+--Scripts
+ 
+ 
+btnSex.MouseButton1Click:Connect(function()
+ 
+local player = tbxVictim.Text
+local stupid = Instance.new('Animation')
+stupid.AnimationId = 'rbxassetid://148840371'
+hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
+pcall(function()
+    hummy.Parent.Pants:Destroy()
+end)
+pcall(function()
+    hummy.Parent.Shirt:Destroy()
+end)
+local notfunny = hummy:LoadAnimation(stupid)
+notfunny:Play()
+notfunny:AdjustSpeed(10)
+while hummy.Parent.Parent ~= nil do
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[tbxVictim.Text].Character.HumanoidRootPart.CFrame
+end
+end)
+
+local about = Window:MakeTab({
+    Name = "关于",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+about:AddParagraph("作者","溪流.cn")
+
+about:AddParagraph("QQ","没QQ")
+
+about:AddParagraph("此脚本为测试脚本","源码免费提供")
+
+about:AddParagraph("软天空名称","Roblox荷花 不欢迎关注")
+
+OrionLib:Init()
